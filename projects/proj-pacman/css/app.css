@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.modal{
+  display: none;
+  background-color: yellow;
+  color: red;
+  font-size: 30px;
+  padding: 17px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.victory{
+  display: none;
+  background-color: blue;
+  color: red;
+  font-size: 30px;
+  padding: 17px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.restart{
+  background-color: white;
+  /* display: block; */
+  text-align: center;
+  width: 40%;
+  color: black;
+  font-size: 20px;
+  padding: 17px;
+  margin: 0 auto;
+}

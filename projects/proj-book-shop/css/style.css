@@ -1,0 +1,77 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/background-img.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+}
+
+.add-book {
+  padding: 8px;
+  margin: 10px;
+  background-color: rgba(93, 223, 53, 0.438);
+}
+
+table {
+  align-items: center;
+  margin: auto;
+  border: 1px solid white;
+  width: 70vw;
+  height: 50vh;
+}
+
+th {
+  background-color: rgba(117, 106, 106, 0.877);
+  color: black;
+}
+
+td {
+  background-color: rgba(245, 245, 245, 0.822);
+  color: black;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+button {
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.book-title {
+  color: rgb(38, 38, 197);
+}
+
+.btn-read {
+  background-color: rgba(53, 121, 223, 0.438);
+}
+.btn-update {
+  background-color: rgba(223, 169, 53, 0.438);
+}
+.btn-delete {
+  background-color: rgba(223, 53, 53, 0.438);
+}
+
+.details-modal {
+  position: fixed;
+  background-color: rgba(211, 211, 211, 0.863);
+  height: 70vh;
+  width: 40vw;
+  border: 2px solid black;
+}
+
+.modal-book-details{
+  padding: 20px;
+  color: rgb(53, 49, 49);
+}

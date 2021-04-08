@@ -1,0 +1,26 @@
+body {background-color: black; color:white; text-align: center; margin: auto;}
+table{
+    margin: 0 auto;
+}
+.cell {width:40px; height:40px;text-align: center}
+.cell img {width:25px; height:auto}
+.floor {background-color: gray}
+.wall {background-color: brown}
+.modal {
+margin-top: 20px;
+font-size: 20px;
+}
+
+.game-over{
+    font-size: 50px;
+    color: red;
+    display: none;
+}
+
+button{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 14px;
+    display: none;
+}
